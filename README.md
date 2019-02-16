@@ -1,4 +1,4 @@
-# Configuración de un servidor DHCP en Ubuntu Server 16.04.1
+# Configuración de un servidor DHCP en Ubuntu Server 16.04.5 (64-bit)
 
 ## Introducción
 El protocolo de configuración dinámica de host, ***DHCP*** (Dynamic Host Configuration Protocol),
