@@ -7,7 +7,7 @@ dinámicamente una dirección IP a cada dispositivo en una red para que puedan c
 con otras redes.
 [Ver más información.](https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host)
 
-##Instalación del servicio
+## Instalación del servicio
 Lo primero que se debe hacer es abrir un terminal para poder trabajar como administradores.
 Para ello con el comando ***`sudo su`*** obtendremos credenciales de superadmisnitrador.
 
