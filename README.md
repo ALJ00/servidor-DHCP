@@ -1,6 +1,6 @@
 # Configuración de un servidor DHCP en Ubuntu Server 16.04.1
 
-##Introducción
+## Introducción
 El protocolo de configuración dinámica de host, ***DHCP*** (Dunamic Host Configuration Protocol),
 es un protocolo de red de tipo cliente/servidor mediante el cual un servdidor DHCP asigna
 dinámicamente una dirección IP a cada dispositivo en una red para que puedan comunicarse
@@ -18,7 +18,7 @@ Hecho esto, procederemos a instalar el servidor dhcp ***`apt-get install isc-dhc
 
 ![foto](fotosPracticaUbuntuServer/isc.PNG)
 
-##Configuración IP estática del servidor
+## Configuración IP estática del servidor
 El propio servidor no puede darse una dirección IP a si mismo por lo que 
 hay que configurar una IP estática en nuestro servidor. 
 
@@ -39,7 +39,7 @@ quedaría de la siguiente manera:
 
 ![foto](fotosPracticaUbuntuServer/interfaces.PNG)
 
-##Configuración DHCP
+## Configuración DHCP
 Como administradores de sistemas se debe hacer una copia de seguridad antes de hacer cualquier tipo de cambio
 en un ***.conf*** por lo que se usaremos el siguiente comando ***`Cp /etc/dhcp/dhcpd.conf /etc/dhcp/copy-dhcp.conf`***.
 
@@ -60,7 +60,7 @@ tendríamos que usar un sencillo comando:
     /etc/init.d/isc-dhcp-server restart	   Reinicia el servidor
 
 
-##Cliente Ubuntu
+## Cliente Ubuntu
 Por útlimo, comprobamos con ***`ifconfig`*** que tengamos la IP deseada:
 
 ![foto](fotosPracticaUbuntuServer/comprobacion.PNG)
