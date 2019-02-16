@@ -1,7 +1,7 @@
 # Configuración de un servidor DHCP en Ubuntu Server 16.04.1
 
 ## Introducción
-El protocolo de configuración dinámica de host, ***DHCP*** (Dunamic Host Configuration Protocol),
+El protocolo de configuración dinámica de host, ***DHCP*** (Dynamic Host Configuration Protocol),
 es un protocolo de red de tipo cliente/servidor mediante el cual un servdidor DHCP asigna
 dinámicamente una dirección IP a cada dispositivo en una red para que puedan comunicarse
 con otras redes.
