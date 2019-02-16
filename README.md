@@ -48,7 +48,7 @@ Hecho esto se puede verificar que se haya hecho correctamente la copia de seguri
 
 Una vez hecha la copia de seguridad lo que tendremos que hacer es editar dicho fichero, para poder asignar el rango de 
 IP que queremos que dé, junto a algún dato más como por ejemplo el nombre del dominio. Para ello usaremos el 
-comando ***`nano /etc/dhcp/dhcpd.conf`***, y configuramos la subnet, por ejemplo:
+comando ***nano /etc/dhcp/dhcpd.conf***, y configuramos la subnet, por ejemplo:
 
 ![foto](fotosPracticaUbuntuServer/subnet.PNG)
 
