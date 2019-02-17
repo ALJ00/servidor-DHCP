@@ -9,7 +9,7 @@ con otras redes.
 
 ## Instalación del servicio
 Lo primero que se debe hacer es abrir un terminal para poder trabajar como administradores.
-Para ello con el comando ***sudo su*** obtendremos credenciales de superadmisnitrador.
+Para ello con el comando ***`sudo su`*** obtendremos credenciales de superadmisnitrador.
 
 Ya como administradores haremos una actualización del sistema como medida de precaución. Para
 ello utilizaremos los comandos ***apt-get update*** y ***apt-get upgrade***
