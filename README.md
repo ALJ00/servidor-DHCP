@@ -12,7 +12,7 @@ Lo primero que se debe hacer es abrir un terminal para poder trabajar como admin
 Para ello con el comando ***`sudo su`*** obtendremos credenciales de superadmisnitrador.
 
 Ya como administradores haremos una actualización del sistema como medida de precaución. Para
-ello utilizaremos los comandos ***apt-get update*** y ***apt-get upgrade***
+ello utilizaremos los comandos ***`apt-get update`*** y ***`apt-get upgrade`***
 
 Hecho esto, procederemos a instalar el servidor dhcp ***apt-get install isc-dhcp-server***
 
@@ -32,9 +32,9 @@ y así le asignamos una dirección IP de forma manual y tendremos que escribir e
     netmask [mascara]
     
 Hay que seleccionar la tarjeta de red que vamos a utilizar para repartir direcciones:
-***nano /etc/default/isc-dhcp-server***
+***`nano /etc/default/isc-dhcp-server`***
 
-Añadimos: interface="enp0s3" y también en el apartado ***auto enp0s3*** del siguiente fichero, por lo que la línea de comandos
+Añadimos: interface="enp0s3" y también en el apartado ***`auto enp0s3`*** del siguiente fichero, por lo que la línea de comandos
 quedaría de la siguiente manera:
 
 ![foto](fotosPracticaUbuntuServer/interfaces.PNG)
